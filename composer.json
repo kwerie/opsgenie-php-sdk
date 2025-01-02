@@ -1,0 +1,19 @@
+{
+    "name": "kwerie/opsgenie-php-sdk",
+    "description": "An unofficial OpsGenie API SDK",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Kwerie\\OpsgeniePhpSdk\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "kwerie"
+        }
+    ],
+    "require": {
+        "fig/http-message-util": "^1.1"
+    }
+}
